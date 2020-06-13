@@ -1,0 +1,38 @@
+int a;
+int c[6][7];
+int b;
+/*
+int newfunction(int a,int b){
+    int f;
+    int k[8][9][10];
+    f=0;
+    if(a[1]>b){
+        f=f+1;
+    }
+    while(k[1]<a+b){
+        f=f*k[3][6][7]+f*c[1][1];
+        a=k[1]/c[1][1];
+    }
+    return (f);
+}
+
+int foo(void){
+    if(a+c[1][1]*8-12/b>=b){
+        b=b*9+a*c[2*b][1]/a;
+    }
+    else
+    {
+        if(a<c[1][2]){
+            b=b+1;
+        }
+    }
+    return newfunction(b*c-5,c/6);
+}
+
+*/
+void nothing(int a,int b,int c){
+    if(newfunction(a,b)==0)
+        return nothing(b,c,a);
+    return;
+
+}
